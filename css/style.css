@@ -1,0 +1,23 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+body {
+    background: linear-gradient(#25ceb6, #25ceb6); /* need to find color to gradient into */
+	height: 100%;
+	width: 100%;
+}
+.botui-message-content.human {
+    color: #f7f8f8 !important;
+    background-color: #28635a !important;
+}
+.botui-container {
+	
+}
+.botui-message-content {
+    color: #12796b !important;
+    background-color: #b6fff5 !important;
+}
+.botui-actions-buttons-button {
+	background: #28635a !important;
+}
