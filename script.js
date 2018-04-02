@@ -3,7 +3,6 @@
     botui.message.add({
       loading: true
     }).then(function (index) {
-      setTimeout(function () {
         botui.message.update(index, {
           content: 'Hello World from bot!',
           loading: false
@@ -14,7 +13,6 @@
             content: 'Delayed Hello World'
           });
         });
-      }, 5000);
     });
 
     botui.message.add({
